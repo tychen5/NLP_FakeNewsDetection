@@ -1,5 +1,5 @@
 # IR_final
-Information Retrieval and Text Mining project
+Information Retrieval and Text Mining project 2018
 
 # REF
 * 題目參考資料: http://www.im.ntu.edu.tw/~paton/courses.htm
