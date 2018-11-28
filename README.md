@@ -23,6 +23,14 @@ Information Retrieval and Text Mining project 2018
    
  ### Proposal
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
+ 
+ Deadline: 禮拜天，禮拜一校稿
+ 
+ * 動機
+ * 做甚麼
+ * solution insight
+ * solution regression / classification
+ 
  **三個方向 Description**
 
 #### 動機目的、要做什麼
