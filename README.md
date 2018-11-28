@@ -15,8 +15,31 @@ Information Retrieval and Text Mining project 2018
    * 用怎樣的方法分析或比較?
 3. 假新聞相較於真新聞有怎樣的特徵?
    * 怎麼抓取特徵或關鍵字?
+   * 可能用到的情緒字 / 情緒分析
+   * 依照詞性去對假真新聞決定可能會有那些常用字。EX:文字雲
+   * 語意分析 
 4. 假新聞分類、評比
    * 特性、提醒使用者
+   
+ ### Proposal
+ **三個方向 Description**
+
+1. 假新聞的程度
+2. 真假新聞之間有什麼區別
+
+3. (假)新聞的種類
+
+- 比較不同方法的performance
+
+**Solution**
+
+1. TF-IDF。給Tagging
+2. POS (part-of-speech tagging) EX:openNLP、NLTK
+3. Sentiment Analysis EX:TextBlob、
+4. feature selection: 關鍵字、類別鑑別力
+5. 作者、來源的助益性。每一種類的差別
+6. regression (ML方法、DL方法) / classification (IR方法)
+
 
 ## Possible Dataset:
 * https://www.kaggle.com/c/fake-news/data (title、author、text、true/false；來自爬文的news articles)
@@ -49,3 +72,28 @@ Information Retrieval and Text Mining project 2018
 * 題目參考資料: http://www.im.ntu.edu.tw/~paton/courses.htm
 * 2017題目: https://mega.nz/#!xwdEgAjb!FAVoAznYD7bE5rsoXc7isRJUlAbF0m8mamYe2RiCwMM
 * 2010題目: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
+* 文字雲code: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
+
+Datasets for sentiment analysis are available online.[1][2]
+
+The following is a list of a few open source sentiment analysis tools.
+
+* GATE plugins
+* SEAS(gsi-upm/SEAS)
+* SAGA(gsi-upm/SAGA)
+* Stanford Sentiment Analysis Module (Deeply Moving: Deep Learning for Sentiment Analysis)
+* LingPipe (Sentiment Analysis Tutorial)
+* TextBlob (Tutorial: Quickstart)[3]
+* Opinion Finder (OpinionFinder | MPQA)
+* Clips pattern.en (pattern.en | CLiPS)
+
+
+Open Source Dictionary or resources:
+
+* SentiWordNet
+* Bing Liu Datasets (Opinion Mining, Sentiment Analysis, Opinion Extraction)
+* General Inquirer Dataset (General Inquirer Categories)
+* MPQA Opinion Corpus (MPQA Resources)
+* WordNet-Affect (WordNet Domains)
+* SenticNet
+* Emoji Sentiment Ranking
