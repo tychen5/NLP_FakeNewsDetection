@@ -22,11 +22,15 @@ Information Retrieval and Text Mining project 2018
    * 特性、提醒使用者
    
  ### Proposal
+ https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
  **三個方向 Description**
+
+#### 動機目的、要做什麼
+
+動機: 為什麼要做?因為假新聞氾濫、影響閱聽人、帶選舉風向的問題
 
 1. 假新聞的程度
 2. 真假新聞之間有什麼區別
-
 3. (假)新聞的種類
 
 - 比較不同方法的performance
@@ -37,7 +41,7 @@ Information Retrieval and Text Mining project 2018
 2. POS (part-of-speech tagging) EX:openNLP、NLTK
 3. Sentiment Analysis EX:TextBlob、
 4. feature selection: 關鍵字、類別鑑別力
-5. 作者、來源的助益性。每一種類的差別
+5. 作者、來源的助益性。每一種類別的差別
 6. regression (ML方法、DL方法) / classification (IR方法)
 
 
