@@ -41,6 +41,7 @@ Information Retrieval and Text Mining project 2018
 * 協助使用者判斷真假
 * 知道假新聞pattern、用字特性、文章特徵
 * 新聞分類
+* 真假新聞常用的字
 * 爬文insight ( https://shift.newco.co/2016/11/09/What-I-Discovered-About-Trump-and-Clinton-From-Analyzing-4-Million-Facebook-Posts/ )
 * 分析 ( https://towardsdatascience.com/i-trained-fake-news-detection-ai-with-95-accuracy-and-almost-went-crazy-d10589aa57c 、 http://nbviewer.jupyter.org/github/JasonKessler/fakeout/blob/master/Fake%20News%20Analysis.ipynb)
 
