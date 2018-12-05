@@ -54,11 +54,11 @@ Information Retrieval and Text Mining project 2018
 
 
 ## Possible Dataset:
-* https://www.kaggle.com/c/fake-news/data (title、author、text、true/false；來自爬文的news articles)
+* **https://www.kaggle.com/c/fake-news/data (title、author、text、true/false；來自爬文的news articles)**
 * https://github.com/KaiDMML/FakeNewsNet/tree/master/Data (news source, headline, image, body_text, publish_data, etc、包含真假新聞；爬文新聞)
-* https://www.kaggle.com/mrisdal/fake-news (uuidUnique identifier,ord_in_thread,authorauthor of story,publisheddate published ,titletitle of the story,texttext of story,languagedata from webhose.io,crawleddate the story was archived,site_urlsite URL from BS detector,countrydata from webhose.io,domain_rankdata from webhose.io,thread_title,spam_scoredata from webhose.io,main_img_urlimage from story,replies_countnumber of replies,participants_countnumber of participants,likesnumber of Facebook likes,commentsnumber of Facebook comments,sharesnumber of Facebook shares,typetype of website (label from BS detector))
+* **https://www.kaggle.com/mrisdal/fake-news (uuidUnique identifier,ord_in_thread,authorauthor of story,publisheddate published ,titletitle of the story,texttext of story,languagedata from webhose.io,crawleddate the story was archived,site_urlsite URL from BS detector,countrydata from webhose.io,domain_rankdata from webhose.io,thread_title,spam_scoredata from webhose.io,main_img_urlimage from story,replies_countnumber of replies,participants_countnumber of participants,likesnumber of Facebook likes,commentsnumber of Facebook comments,sharesnumber of Facebook shares,typetype of website (label from BS detector))**
 * https://github.com/GeorgeMcIntire/fake_real_news_dataset (csv file and contains 1000s of articles tagged as either real or fake)
-* https://www.cs.ucsb.edu/~william/data/liar_dataset.zip (假新聞程度分級；UCSB)
+* **https://www.cs.ucsb.edu/~william/data/liar_dataset.zip (假新聞程度分級；UCSB)**
 * https://www.kaggle.com/jruvika/fake-news-detection (URLs,Headline,Body,Label(T/F)；)
 * https://www.kaggle.com/c/fake-news-pair-classification-challenge/data (fake news classification)
 * https://github.com/JasonKessler/fakeout (完整的project)
