@@ -46,19 +46,40 @@ Information Retrieval and Text Mining project 2018
 **Solution**
 
 1. TF-IDF。給Tagging
-2. POS (part-of-speech tagging) EX:openNLP、NLTK
+2. POS (part-of-speech tagging) EX:openNLP、NLTK => 1.每個不同dataset的詞性常出現哪些字 2. dictionary by overall dataset依詞性要用哪些字
 3. Sentiment Analysis EX:TextBlob、
 4. feature selection: 關鍵字、類別鑑別力
 5. 作者、來源的助益性。每一種類別的差別
 6. regression (ML方法、DL方法) / classification (IR方法)
 
+**GOAL**
+1. 在相同dictionary大小下: 沒有分詞性情況下跑出來幾分，有詞性的dictionary跑出來幾分 EX:名詞dictionary幾分，動詞正確率幾趴?
+2. 前面所做的insight可以跟最後面產生的dict有關連
+3. 假新聞的程度、分類，兩者testing dataset互為兩者
+4. 時間切三塊或五塊: 選前、選舉正負一個禮拜、選後，主題、用字、情感的變動
+
+**Dataset**
+1. 分為十類別(第二個dataset八類、第一個dataset兩類): 第三個dataset的True、mostly Tru放進去第一個dataset的true；第三個dataset的barely-true、false、pants-fire放進去第一個dataset的False
+2. 濾除標點符號跟數字、大寫變小寫 =>
+
+**分工**
+
+目前只看content(最長的attribute)
+
+1. 璨婷: 十個類別的POS、overall dataset的POS
+2. 沛瑜: 十個類別的長條圖of情緒分析
+3. AMY: 十個類別的文字雲、頻率圖
+4. Leo: 3 kind of feature selecion、tfidf of building overall dictionary
+
+
+
 
 ## Possible Dataset:
-* **https://www.kaggle.com/c/fake-news/data (title、author、text、true/false；來自爬文的news articles)**
+* **https://www.kaggle.com/c/fake-news/data (title、author、text、true/false；來自爬文的news articles)** => 
 * https://github.com/KaiDMML/FakeNewsNet/tree/master/Data (news source, headline, image, body_text, publish_data, etc、包含真假新聞；爬文新聞)
-* **https://www.kaggle.com/mrisdal/fake-news (uuidUnique identifier,ord_in_thread,authorauthor of story,publisheddate published ,titletitle of the story,texttext of story,languagedata from webhose.io,crawleddate the story was archived,site_urlsite URL from BS detector,countrydata from webhose.io,domain_rankdata from webhose.io,thread_title,spam_scoredata from webhose.io,main_img_urlimage from story,replies_countnumber of replies,participants_countnumber of participants,likesnumber of Facebook likes,commentsnumber of Facebook comments,sharesnumber of Facebook shares,typetype of website (label from BS detector))**
+* **https://www.kaggle.com/mrisdal/fake-news (uuidUnique identifier,ord_in_thread,authorauthor of story,publisheddate published ,titletitle of the story,texttext of story,languagedata from webhose.io,crawleddate the story was archived,site_urlsite URL from BS detector,countrydata from webhose.io,domain_rankdata from webhose.io,thread_title,spam_scoredata from webhose.io,main_img_urlimage from story,replies_countnumber of replies,participants_countnumber of participants,likesnumber of Facebook likes,commentsnumber of Facebook comments,sharesnumber of Facebook shares,typetype of website (label from BS detector))**  https://github.com/bs-detector/bs-detector
 * https://github.com/GeorgeMcIntire/fake_real_news_dataset (csv file and contains 1000s of articles tagged as either real or fake)
-* **https://www.cs.ucsb.edu/~william/data/liar_dataset.zip (假新聞程度分級；UCSB)**
+* **https://www.cs.ucsb.edu/~william/data/liar_dataset.zip (假新聞程度分級；UCSB)(statement、speaker、conext、label、src)**
 * https://www.kaggle.com/jruvika/fake-news-detection (URLs,Headline,Body,Label(T/F)；)
 * https://www.kaggle.com/c/fake-news-pair-classification-challenge/data (fake news classification)
 * https://github.com/JasonKessler/fakeout (完整的project)
