@@ -60,7 +60,7 @@ Information Retrieval and Text Mining project 2018
 
 **Dataset**
 1. 分為十類別(第二個dataset八類、第一個dataset兩類): 第三個dataset的True、mostly Tru放進去第一個dataset的true；第三個dataset的barely-true、false、pants-fire放進去第一個dataset的False
-2. 濾除標點符號跟數字、大寫變小寫 =>
+2. 濾除標點符號跟數字、大寫變小寫 ，只留下 content(最長的attribute)、label (假新聞的程度、類別)
 
 **分工**
 
