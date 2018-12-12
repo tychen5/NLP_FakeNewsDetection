@@ -62,13 +62,14 @@ Information Retrieval and Text Mining project 2018
 1. 分為十類別(第二個dataset八類、第一個dataset兩類): 第三個dataset的True、mostly Tru放進去第一個dataset的true；第三個dataset的barely-true、false、pants-fire放進去第一個dataset的False
 2. 濾除標點符號跟數字、大寫變小寫 ，只留下 content(最長的attribute)、label (假新聞的程度、類別)
 
-三個dataset的text,label合併資料集：https://drive.google.com/file/d/1sPbFLf3dLwcgTIXT9LafvfkxGdnPfJVW/view?usp=sharing
+三個dataset的text,label合併資料集：https://drive.google.com/drive/folders/19aXlSp2WVin6tDm7KQYtA9xh0dsc-uJD?usp=sharing
 
 **分工**
 
 目前只看content(最長的attribute)
 
 1. 璨婷: 十個類別的POS、overall dataset的POS
+https://drive.google.com/drive/folders/19aXlSp2WVin6tDm7KQYtA9xh0dsc-uJD?usp=sharing
 2. 沛瑜: 十個類別的長條圖of情緒分析
 3. AMY: 十個類別的文字雲、頻率圖
 4. Leo: 3 kind of feature selecion、tfidf of building overall dictionary
