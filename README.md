@@ -70,6 +70,8 @@ Information Retrieval and Text Mining project 2018
 
 1. 璨婷: 十個類別的POS、overall dataset的POS
   https://drive.google.com/drive/folders/19aXlSp2WVin6tDm7KQYtA9xh0dsc-uJD?usp=sharing
+  
+  https://xlsxwriter.readthedocs.io/worksheet.html
 
 2. 沛瑜: 十個類別的長條圖of情緒分析
 3. AMY: 十個類別的文字雲、頻率圖
