@@ -5,7 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
-
+# manual add
+**/data/*
+**/.ipynb_checkpoints/*
+**/logs/*
+**/output/*
+**/DATA/*
+								  
 # Distribution / packaging
 .Python
 build/
