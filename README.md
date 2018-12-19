@@ -74,9 +74,10 @@ Information Retrieval and Text Mining project 2018
   https://xlsxwriter.readthedocs.io/worksheet.html
 
 2. 沛瑜: 十個類別的長條圖of情緒分析
-3. AMY: 十個類別的文字雲、頻率圖
+3. AMY: 十個類別的文字雲、頻率圖=>做一個overall的，把各類別常見的term的濾掉
 4. Leo: 3 kind of feature selecion、tfidf of building overall dictionary
 
+bs類別的東西要拿掉
 
 
 
