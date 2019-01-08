@@ -113,6 +113,9 @@ bs類別的東西要拿掉
 * 2017題目: https://mega.nz/#!xwdEgAjb!FAVoAznYD7bE5rsoXc7isRJUlAbF0m8mamYe2RiCwMM
 * 2010題目: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
 * 文字雲code: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
+* TextBlob情感分析: https://nlp.stanford.edu/courses/cs224n/2009/fp/24.pdf (套用NLTK movie_review當作training data)(https://stackoverflow.com/questions/34518570/how-are-sentiment-analysis-computed-in-blob/34519114#34519114)
+
+
 
 Datasets for sentiment analysis are available online.[1][2]
 
