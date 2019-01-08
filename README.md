@@ -114,6 +114,7 @@ bs類別的東西要拿掉
 * 2010題目: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
 * 文字雲code: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
 * TextBlob情感分析: https://nlp.stanford.edu/courses/cs224n/2009/fp/24.pdf (套用NLTK movie_review當作training data)(https://stackoverflow.com/questions/34518570/how-are-sentiment-analysis-computed-in-blob/34519114#34519114)
+* NLTK詞性分析(pos_tager): https://explosion.ai/blog/part-of-speech-pos-tagger-in-python (Greedy Averaged Perceptron tagger?)(taining data Sections 00-18 of the Wall Street Journal sections of OntoNotes 5)(https://stackoverflow.com/questions/32016545/how-does-nltk-pos-tag-work)
 
 
 
