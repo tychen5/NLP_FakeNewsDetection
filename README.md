@@ -79,6 +79,9 @@ Information Retrieval and Text Mining project 2018
 
 bs類別的東西要拿掉
 
+testing Kaggle: https://www.kaggle.com/c/fake-news/submit
+
+clf好壞結果、reg好壞結果
 
 
 ## Possible Dataset:
