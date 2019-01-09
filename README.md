@@ -23,6 +23,10 @@ Information Retrieval and Text Mining project 2018
    
  ### Proposal
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
+ ### Final report
+ https://docs.google.com/document/d/1I9SWihDkgXx1NCYCsY-0e_XDicAK346PqQu5wMaesd0/edit
+ ### Presentation
+ https://docs.google.com/presentation/d/1lRDR40UfcLpdRUSnfMbi6eOsR_jjxFdOcKwa8HvxHh8/edit#slide=id.p
  
  Deadline: 禮拜天，禮拜一校稿
  
