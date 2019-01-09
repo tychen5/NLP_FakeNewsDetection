@@ -144,3 +144,9 @@ Open Source Dictionary or resources:
 * WordNet-Affect (WordNet Domains)
 * SenticNet
 * Emoji Sentiment Ranking
+
+文獻探討: 其他人怎麼做的?
+
+方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
+
+
