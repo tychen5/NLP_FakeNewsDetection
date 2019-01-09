@@ -149,4 +149,6 @@ Open Source Dictionary or resources:
 
 方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
 
+禮拜天晚上七點在老曹lab討論；禮拜一下午兩點在老曹lab討論
+
 
