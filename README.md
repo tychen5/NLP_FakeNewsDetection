@@ -23,6 +23,10 @@ Information Retrieval and Text Mining project 2018
    
  ### Proposal
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
+ ### Final report (中文撰寫)
+ https://docs.google.com/document/d/1I9SWihDkgXx1NCYCsY-0e_XDicAK346PqQu5wMaesd0/edit
+ ### Presentation (plz written in English)
+ https://docs.google.com/presentation/d/1lRDR40UfcLpdRUSnfMbi6eOsR_jjxFdOcKwa8HvxHh8/edit#slide=id.p
  
  Deadline: 禮拜天，禮拜一校稿
  
@@ -73,11 +77,15 @@ Information Retrieval and Text Mining project 2018
   
   https://xlsxwriter.readthedocs.io/worksheet.html
 
-2. 沛瑜: 十個類別的長條圖of情緒分析
-3. AMY: 十個類別的文字雲、頻率圖
+2. 沛瑜: 十個類別的長條圖of情緒分析。文獻探討: 詞性、情緒、feature selection、分類、回歸等等套件的論文
+3. AMY: 十個類別的文字雲、頻率圖=>做一個overall的，把各類別常見的term的濾掉
 4. Leo: 3 kind of feature selecion、tfidf of building overall dictionary
 
+bs類別的東西要拿掉
 
+testing Kaggle: https://www.kaggle.com/c/fake-news/submit
+
+clf好壞結果、reg好壞結果
 
 
 ## Possible Dataset:
@@ -112,6 +120,10 @@ Information Retrieval and Text Mining project 2018
 * 2017題目: https://mega.nz/#!xwdEgAjb!FAVoAznYD7bE5rsoXc7isRJUlAbF0m8mamYe2RiCwMM
 * 2010題目: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
 * 文字雲code: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
+* TextBlob情感分析: https://nlp.stanford.edu/courses/cs224n/2009/fp/24.pdf (套用NLTK movie_review當作training data)(https://stackoverflow.com/questions/34518570/how-are-sentiment-analysis-computed-in-blob/34519114#34519114)
+* NLTK詞性分析(pos_tager): https://explosion.ai/blog/part-of-speech-pos-tagger-in-python (Greedy Averaged Perceptron tagger?)(taining data Sections 00-18 of the Wall Street Journal sections of OntoNotes 5)(https://stackoverflow.com/questions/32016545/how-does-nltk-pos-tag-work)
+
+
 
 Datasets for sentiment analysis are available online.[1][2]
 
@@ -136,3 +148,11 @@ Open Source Dictionary or resources:
 * WordNet-Affect (WordNet Domains)
 * SenticNet
 * Emoji Sentiment Ranking
+
+文獻探討: 其他人怎麼做的?
+
+方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
+
+禮拜天晚上七點在老曹lab討論；禮拜一下午兩點在老曹lab討論
+
+
