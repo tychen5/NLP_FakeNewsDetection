@@ -152,6 +152,7 @@ Open Source Dictionary or resources:
 文獻探討: 其他人怎麼做的?
 
 方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
+
 **文字分類**
 * A novel text mining approach based on TF-IDF and Support Vector Machine for news classification
 https://ieeexplore.ieee.org/abstract/document/7569223
