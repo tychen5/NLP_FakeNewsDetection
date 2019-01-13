@@ -73,7 +73,7 @@ Information Retrieval and Text Mining project 2018
 目前只看content(最長的attribute)
 
 1. 璨婷: 十個類別的POS、overall dataset的POS
-  https://drive.google.com/drive/folders/19aXlSp2WVin6tDm7KQYtA9xh0dsc-uJD?usp=sharing
+  https://drive.google.com/drive/folders/1C-6U9TcyUwgxzdArvAXPsnjx9yrPhxsh?usp=sharing
   
   https://xlsxwriter.readthedocs.io/worksheet.html
 
