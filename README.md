@@ -73,7 +73,7 @@ Information Retrieval and Text Mining project 2018
 目前只看content(最長的attribute)
 
 1. 璨婷: 十個類別的POS、overall dataset的POS
-  https://drive.google.com/drive/folders/19aXlSp2WVin6tDm7KQYtA9xh0dsc-uJD?usp=sharing
+  https://drive.google.com/drive/folders/1C-6U9TcyUwgxzdArvAXPsnjx9yrPhxsh?usp=sharing
   
   https://xlsxwriter.readthedocs.io/worksheet.html
 
@@ -152,6 +152,15 @@ Open Source Dictionary or resources:
 文獻探討: 其他人怎麼做的?
 
 方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
+
+**文字分類**
+* A novel text mining approach based on TF-IDF and Support Vector Machine for news classification
+https://ieeexplore.ieee.org/abstract/document/7569223
+* TEXT CLASSIFICATION USING NAÏVE BAYES, VSM AND POS TAGGER
+https://pdfs.semanticscholar.org/43d0/0d394ff76c0a5426c37fe072038ac7ec7627.pdf
+* Text categorization with Support Vector Machines: Learning with many relevant features
+https://link.springer.com/content/pdf/10.1007%2FBFb0026683.pdf
+* Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles: http://snap.stanford.edu/mis2/files/MIS2_paper_2.pdf
 
 禮拜天晚上七點在老曹lab討論；禮拜一下午兩點在老曹lab討論
 
