@@ -1,15 +1,13 @@
-# IR_final
-Information Retrieval and Text Mining project 2018
+# Fake News Detection
+*Information Retrieval and Text Mining project*
+* News Insight
+* News Classification
+* Text Regression
 
-**題目候選人:**
-* 歌詞產生器=>新聞產生器，看文章產生標題
-* fake news insight detection EX:假消息的種類、特徵、特性，從文字角度來看跟真的之區別，模板。川普總統大選，分類、真假度(比較IR、ML方法、NN)
-* dcard VS ptt 風氣差別。EX:很兇、很和善、用字、情緒氛圍、情感豐富度、有趣的現象(同一件事情不同角度怎樣的面向)
-* 透過sandbox log資料，分析惡意程式動態行為、知道可能是哪一個家族的具有什麼樣的特性或是關鍵特徵
-* 從文字分析股價、油價、...etc的走勢
-* 分析業配文，假的廣告
 
-## 題目中選人: Fake News Analysis and Insight
+
+
+## Topic: Fake News Analysis and Insight
 1. 蒐集各方假新聞dataset
 2. 可以從假新聞或真新聞中分析出什麼樣的消息?
    * 用怎樣的方法分析或比較?
@@ -21,23 +19,21 @@ Information Retrieval and Text Mining project 2018
 4. 假新聞分類、評比
    * 特性、提醒使用者
    
- ### Proposal
+ ### Problem Description
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
- ### Final report (中文撰寫)
+ ### Implement Report 
  https://docs.google.com/document/d/1I9SWihDkgXx1NCYCsY-0e_XDicAK346PqQu5wMaesd0/edit
- ### Presentation (plz written in English)
+ ### Presentation
  https://docs.google.com/presentation/d/1lRDR40UfcLpdRUSnfMbi6eOsR_jjxFdOcKwa8HvxHh8/edit#slide=id.p
  
- Deadline: 禮拜天，禮拜一校稿
- 
+Outline: 
  * 動機
  * 做甚麼
  * solution insight
  * solution regression / classification
- 
- **三個方向 Description**
 
-#### 動機目的、要做什麼
+
+#### Motivation & Goal
 
 動機: 為什麼要做?因為假新聞氾濫、影響閱聽人、帶選舉風向的問題
 
@@ -68,24 +64,21 @@ Information Retrieval and Text Mining project 2018
 
 三個dataset的text,label合併資料集：https://drive.google.com/drive/u/2/folders/19CER5SrMU29n3UPAkQc2hPu3HA8vyqbc
 
-**分工**
+**Method**
 
-目前只看content(最長的attribute)
+目前只看news content
 
-1. 璨婷: 十個類別的POS、overall dataset的POS
+1. 十個類別的POS、overall dataset的POS
   https://drive.google.com/drive/folders/1C-6U9TcyUwgxzdArvAXPsnjx9yrPhxsh?usp=sharing
-  
-  https://xlsxwriter.readthedocs.io/worksheet.html
+2. 十個類別的長條圖of情緒分析。文獻探討: 詞性、情緒、feature selection、分類、回歸等等套件的論文
+3. 十個類別的文字雲、頻率圖=>做一個overall的，把各類別常見的term的濾掉
+4. 3 kind of feature selecion、tfidf of building overall dictionary
 
-2. 沛瑜: 十個類別的長條圖of情緒分析。文獻探討: 詞性、情緒、feature selection、分類、回歸等等套件的論文
-3. AMY: 十個類別的文字雲、頻率圖=>做一個overall的，把各類別常見的term的濾掉
-4. Leo: 3 kind of feature selecion、tfidf of building overall dictionary
-
-bs類別的東西要拿掉
+bs類別代表意義不大
 
 testing Kaggle: https://www.kaggle.com/c/fake-news/submit
 
-clf好壞結果、reg好壞結果
+(測試clf好壞結果、reg好壞結果)
 
 
 ## Possible Dataset:
@@ -103,7 +96,7 @@ clf好壞結果、reg好壞結果
 * datasets: https://data.world/datasets/fake-news 、 https://github.com/sumeetkr/AwesomeFakeNews
 * preprocess ref: https://www.kaggle.com/rchitic17/fake-news 、 https://www.kaggle.com/michaleczuszek/fake-news-analysis
 
-### 動機
+### Motivation Reference
 * https://www.ithome.com.tw/news/127214?fbclid=IwAR0oKz7wm0Ub0Kb5FDh9HAvjKX5tgidTtZrFRSY_kVsgQrue5_-K-5iSC-o
 * https://www.ithome.com.tw/news/127201?fbclid=IwAR3_vIk3Pdvsem1d_uAWyaiZHUj8C51JLzene9jYOtc50KL31xgEHiHYfLQ
 
@@ -115,11 +108,11 @@ clf好壞結果、reg好壞結果
 * 爬文insight ( https://shift.newco.co/2016/11/09/What-I-Discovered-About-Trump-and-Clinton-From-Analyzing-4-Million-Facebook-Posts/ )
 * 分析 ( https://towardsdatascience.com/i-trained-fake-news-detection-ai-with-95-accuracy-and-almost-went-crazy-d10589aa57c 、 http://nbviewer.jupyter.org/github/JasonKessler/fakeout/blob/master/Fake%20News%20Analysis.ipynb)
 
-# REF
-* 題目參考資料: http://www.im.ntu.edu.tw/~paton/courses.htm
-* 2017題目: https://mega.nz/#!xwdEgAjb!FAVoAznYD7bE5rsoXc7isRJUlAbF0m8mamYe2RiCwMM
-* 2010題目: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
-* 文字雲code: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
+### REF
+* 題目參考資料1: http://www.im.ntu.edu.tw/~paton/courses.htm
+* 題目參考資料2: https://mega.nz/#!xwdEgAjb!FAVoAznYD7bE5rsoXc7isRJUlAbF0m8mamYe2RiCwMM
+* 題目參考資料3: https://mega.nz/#!UlNmXQIS!7dZhNx0Cy9-VyjlEI5GUO5zjIgYNJoe9dUAPaCNcowA
+* 文字雲: https://www.kaggle.com/ngyptr/python-nltk-sentiment-analysis
 * TextBlob情感分析: https://nlp.stanford.edu/courses/cs224n/2009/fp/24.pdf (套用NLTK movie_review當作training data)(https://stackoverflow.com/questions/34518570/how-are-sentiment-analysis-computed-in-blob/34519114#34519114)
 * NLTK詞性分析(pos_tager): https://explosion.ai/blog/part-of-speech-pos-tagger-in-python (Greedy Averaged Perceptron tagger?)(taining data Sections 00-18 of the Wall Street Journal sections of OntoNotes 5)(https://stackoverflow.com/questions/32016545/how-does-nltk-pos-tag-work)
 
@@ -149,9 +142,9 @@ Open Source Dictionary or resources:
 * SenticNet
 * Emoji Sentiment Ranking
 
-文獻探討: 其他人怎麼做的?
+#### 文獻探討: 其他人怎麼做的
 
-方向: 文字分類(classification=>沛瑜) or 程度回歸(regression=>AMY)
+方向: 文字分類(classification) or 程度回歸(regression)
 
 **文字分類**
 * A novel text mining approach based on TF-IDF and Support Vector Machine for news classification
@@ -162,6 +155,5 @@ https://pdfs.semanticscholar.org/43d0/0d394ff76c0a5426c37fe072038ac7ec7627.pdf
 https://link.springer.com/content/pdf/10.1007%2FBFb0026683.pdf
 * Unsupervised Content-Based Identification of Fake News Articles with Tensor Decomposition Ensembles: http://snap.stanford.edu/mis2/files/MIS2_paper_2.pdf
 
-禮拜天晚上七點在老曹lab討論；禮拜一下午兩點在老曹lab討論
 
 
