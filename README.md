@@ -19,9 +19,9 @@
 4. 假新聞分類、評比
    * 特性、提醒使用者
    
- ### Documents
+ ### Problem Description
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
- ### Final Report 
+ ### Implement Report 
  https://docs.google.com/document/d/1I9SWihDkgXx1NCYCsY-0e_XDicAK346PqQu5wMaesd0/edit
  ### Presentation
  https://docs.google.com/presentation/d/1lRDR40UfcLpdRUSnfMbi6eOsR_jjxFdOcKwa8HvxHh8/edit#slide=id.p
