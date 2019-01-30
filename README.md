@@ -46,7 +46,9 @@ Outline:
 **Solution**
 
 1. TF-IDF。給Tagging
-2. POS (part-of-speech tagging) EX:openNLP、NLTK => 1.每個不同dataset的詞性常出現哪些字 2. dictionary by overall dataset依詞性要用哪些字
+2. POS (part-of-speech tagging) EX:openNLP、NLTK => 
+    a.每個不同dataset的詞性常出現哪些字 
+    b. dictionary by overall dataset依詞性要用哪些字
 3. Sentiment Analysis EX:TextBlob、
 4. feature selection: 關鍵字、類別鑑別力
 5. 作者、來源的助益性。每一種類別的差別
