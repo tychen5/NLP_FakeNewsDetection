@@ -4,3 +4,4 @@
 * NN model with title, author and date DEMO: https://drive.google.com/file/d/1ZI4jts3Osnl9R_i-ukDRX5F6D5AWf5qb/view
 * Slides: https://mega.nz/#!Z9kBmSLQ!-cqpWxFMkOUdmMRkBDX6jwHQ_G5xDzzqhloomUXGOas
 * Metadata System Demo: http://NCU.one/8
+* Presentation Video: https://www.youtube.com/watch?v=9PFZ0_C2Sxo&feature=share
