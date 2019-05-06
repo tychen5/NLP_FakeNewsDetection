@@ -3,7 +3,8 @@
 * News Insight
 * News Classification
 * Text Regression
-
+### Presentation Video
+https://www.youtube.com/watch?v=9PFZ0_C2Sxo&feature=share
 
 
 
@@ -23,7 +24,7 @@
  https://docs.google.com/document/d/10-7H9bPJYQRMdOUdugDlWeifdpvoN9twXZGT-m1fhdc/edit?usp=sharing
  ### Implement Report 
  https://docs.google.com/document/d/1I9SWihDkgXx1NCYCsY-0e_XDicAK346PqQu5wMaesd0/edit
- ### Presentation
+ ### Presentation slides
  https://docs.google.com/presentation/d/1lRDR40UfcLpdRUSnfMbi6eOsR_jjxFdOcKwa8HvxHh8/edit#slide=id.p
  
 Outline: 
