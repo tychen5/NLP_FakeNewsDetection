@@ -1,5 +1,9 @@
 # 教育部資訊安全人才培育計畫教學講師(Leo)
+<img src="https://github.com/tychen5/NLP_FakeNewsDetection/raw/master/ISIP_Speaker/Poster.jpg" width=375 style="zoom:10%" />
+
 * Teaching material GD home directory: https://drive.google.com/drive/folders/1fhg-M8ijY0knxkvJyGxnTxGprVQ_9DZA
+ 
+
 ## Day1: Text Mining、Information Retrieval、Natural Language Processing
 * Sample Code (can run in colab): https://drive.google.com/open?id=1P3RPcAKi1sWVTKEPz1aNjwzncdwVl2Vw
 * Sample Data: https://drive.google.com/drive/folders/1eh9gfYs35VtFG5gTjjM28gU1yaB86a0F
