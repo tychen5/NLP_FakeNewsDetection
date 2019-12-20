@@ -9,6 +9,10 @@
 * Sample Data: https://drive.google.com/drive/folders/1eh9gfYs35VtFG5gTjjM28gU1yaB86a0F
 * Result Example: https://drive.google.com/drive/folders/1dZJAgMFYMgdDb35XgRd8YZF5yr4zE_lf
 * Testing Kaggle: https://www.kaggle.com/t/9fcbe5ded5464242a7055a9039d8a838
+* Handouts slides: https://mega.nz/#!h8UQ3KoT!D4pxbSLm4krieNkeatBLZW_D32NW02FQw_amBTLaMTw
+* Part1 solution: https://mega.nz/#!NxVAGQ6S!efUbyd1FlSjJMhlDvNmcncLchUgunmekdptwRdV9ZKQ
+* Part2 solution: https://mega.nz/#!Z4MEFASY!6o5APaXrh-24sfUjbgYw1Ik8jLRrWWvN_4N5yHiTFsM
+* Part3 solution: https://mega.nz/#!YgFiiQAb!cDYf4x9jYEPeSJ1Jg3eVDeLijNgfDg4IHU18o-KFPQM
 
 ## Day2: Maching Learning、Deep Learning、Big Data
 * Sample Code (can run in colab): https://drive.google.com/open?id=140cwkIXcdLOxH-PMUtL6yhD4nkoXmMRj
