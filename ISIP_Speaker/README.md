@@ -20,3 +20,4 @@
 * Result Example: https://drive.google.com/open?id=1-0eqNEr4XQlfeuKMNDR5p7Gez3D6_SFk
 * Testing Kaggle: https://www.kaggle.com/c/fake-news/submit
 * Supplementary materials (Text Classification & WordCloud/ScatterText): https://drive.google.com/open?id=1gBxc_BsqmnbV1MUi27j7M8kBqAU1A7Lc
+* Handouts slides: https://mega.nz/#!k49ShAqT!aCE9rAZ0Ax4QpBU9Ib0FbrG5pWseZtdweMiEsoOieVg
